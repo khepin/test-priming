@@ -1,0 +1,21 @@
+model: Khepin\PrimingBundle\Document\Comment
+persistence: mongodb
+fixtures:
+    comment_1:
+        content: OMG!!! I love catzzz!!!
+        blog_post: first_post
+    comment_2:
+        content: catzzz roxxx
+        blog_post: first_post
+    comment_3:
+        content: so sad...
+        blog_post: second_post
+    comment_4:
+        content: haha!!! you deserve that!
+        blog_post: second_post
+    comment_5:
+        content: haha!!! you deserve that!
+        blog_post: second_post
+    comment_6:
+        content: haha!!! you deserve that!
+        blog_post: second_post

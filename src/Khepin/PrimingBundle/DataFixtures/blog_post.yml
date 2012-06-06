@@ -1,0 +1,17 @@
+model: Khepin\PrimingBundle\Document\BlogPost
+persistence: mongodb
+fixtures:
+    first_post:
+        title: Welcome to my blog
+        content: >
+            Hi and welcome to this blog. My name is Peter, I will update this
+            everyday for the next year with pictures of cats!
+    second_post:
+        title: Here is my real cat
+        content: >
+            No, just kidding, I cannot have a cat because of my mom...
+    third_post:
+        title: I'm fed up with catz! How about we talk about dogs
+        content: >
+            Even if they are really not clean, but my friend Mike has one and
+            he says they are more fun. lolz
